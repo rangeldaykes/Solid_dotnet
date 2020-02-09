@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "First_SRP_Single_Responsibility_Cohesion", "First_SRP_Single_Responsibility_Cohesion", "{DBBA742B-0739-4346-9EDE-287556B01232}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem_1_CalculadoraSalario", "Problem_1_CalculadoraSalario", "{BD708DEB-1432-48AA-96FB-DF126AE7C66C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraSalario_Problem", "CalculadoraSalario_Problem\CalculadoraSalario_Problem.csproj", "{732FCE27-9F04-43A8-AA0F-BC30A0A31431}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraSalario_Solution", "CalculadoraSalario_Solution\CalculadoraSalario_Solution.csproj", "{48A94053-F4C4-4854-87D1-B3E7D7CCCBD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{732FCE27-9F04-43A8-AA0F-BC30A0A31431}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732FCE27-9F04-43A8-AA0F-BC30A0A31431}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732FCE27-9F04-43A8-AA0F-BC30A0A31431}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732FCE27-9F04-43A8-AA0F-BC30A0A31431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A94053-F4C4-4854-87D1-B3E7D7CCCBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A94053-F4C4-4854-87D1-B3E7D7CCCBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A94053-F4C4-4854-87D1-B3E7D7CCCBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A94053-F4C4-4854-87D1-B3E7D7CCCBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD708DEB-1432-48AA-96FB-DF126AE7C66C} = {DBBA742B-0739-4346-9EDE-287556B01232}
+		{732FCE27-9F04-43A8-AA0F-BC30A0A31431} = {BD708DEB-1432-48AA-96FB-DF126AE7C66C}
+		{48A94053-F4C4-4854-87D1-B3E7D7CCCBD1} = {BD708DEB-1432-48AA-96FB-DF126AE7C66C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0ADFFE23-F487-4C62-B055-02E7B5E87267}
+	EndGlobalSection
+EndGlobal
