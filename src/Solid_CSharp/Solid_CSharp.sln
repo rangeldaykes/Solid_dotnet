@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "First_SRP_Single_Responsibility", "First_SRP_Single_Responsibility", "{DBBA742B-0739-4346-9EDE-287556B01232}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_SRP_Single_Responsibility", "1_SRP_Single_Responsibility", "{DBBA742B-0739-4346-9EDE-287556B01232}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem_1_CalculadoraSalario_Coesao", "Problem_1_CalculadoraSalario_Coesao", "{BD708DEB-1432-48AA-96FB-DF126AE7C66C}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeradorDeNotaFiscal_Problem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeradorDeNotaFiscal_Solution", "GeradorDeNotaFiscal_Solution\GeradorDeNotaFiscal_Solution.csproj", "{9B464181-9052-403B-B36A-962683EE5FD6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Second_OCP_Open_Close", "Second_OCP_Open_Close", "{04E2513A-509E-4B4C-82CF-49E29FBA4E53}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_OCP_Open_Close", "2_OCP_Open_Close", "{04E2513A-509E-4B4C-82CF-49E29FBA4E53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem_1_CalculadoraDePrecos", "Problem_1_CalculadoraDePrecos", "{63774B57-D038-4485-AE1D-E595373058EF}"
 EndProject
@@ -30,6 +30,24 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessadorBoletos_Problem", "ProcessadorBoletos_Problem\ProcessadorBoletos_Problem.csproj", "{2616DA7D-1BB3-444B-A301-2F3D173E27CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessadorBoletos_Solution", "ProcessadorBoletos_Solution\ProcessadorBoletos_Solution.csproj", "{C0B1068F-3F02-48A0-902F-EFA37DFEFF04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem_2_GeradorDeArquivos", "Problem_2_GeradorDeArquivos", "{387D490D-B354-4407-8005-90DB40CE6207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorDeArquivos_Problem", "GeradorDeArquivos_Problem\GeradorDeArquivos_Problem.csproj", "{27A17F7D-13B3-4782-8D22-183AB239F1C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorDeArquivos_Solution", "GeradorDeArquivos_Solution\GeradorDeArquivos_Solution.csproj", "{4FA52925-C4EC-43CB-B343-39870F2B1BE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_LSP_Liskov_Substitution", "3_LSP_Liskov_Substitution", "{E841A92C-9283-4503-9B40-A0FF65D958A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_ISP_Interface_Segregation", "4_ISP_Interface_Segregation", "{B6EB6D1C-B36F-4C18-AC86-2F161D9D63F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5_DIP_Dependency_Inversion", "5_DIP_Dependency_Inversion", "{632D6AB8-E9C4-4B4E-B989-A7A094378AE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Problem_1_GerenciadorDeContas", "Problem_1_GerenciadorDeContas", "{DF952635-1E94-4BDC-AB52-5A7BD5B6B704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeContas_Problem", "GerenciadorDeContas_Problem\GerenciadorDeContas_Problem.csproj", "{8F56D3C6-8520-4EEB-ADEF-D16E6ECEDE7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorDeContas_Solution", "GerenciadorDeContas_Solution\GerenciadorDeContas_Solution.csproj", "{7947DBC8-3B57-461F-AB70-EA159984C4CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +87,22 @@ Global
 		{C0B1068F-3F02-48A0-902F-EFA37DFEFF04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0B1068F-3F02-48A0-902F-EFA37DFEFF04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0B1068F-3F02-48A0-902F-EFA37DFEFF04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A17F7D-13B3-4782-8D22-183AB239F1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A17F7D-13B3-4782-8D22-183AB239F1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A17F7D-13B3-4782-8D22-183AB239F1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A17F7D-13B3-4782-8D22-183AB239F1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FA52925-C4EC-43CB-B343-39870F2B1BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FA52925-C4EC-43CB-B343-39870F2B1BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FA52925-C4EC-43CB-B343-39870F2B1BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FA52925-C4EC-43CB-B343-39870F2B1BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F56D3C6-8520-4EEB-ADEF-D16E6ECEDE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F56D3C6-8520-4EEB-ADEF-D16E6ECEDE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F56D3C6-8520-4EEB-ADEF-D16E6ECEDE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F56D3C6-8520-4EEB-ADEF-D16E6ECEDE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7947DBC8-3B57-461F-AB70-EA159984C4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7947DBC8-3B57-461F-AB70-EA159984C4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7947DBC8-3B57-461F-AB70-EA159984C4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7947DBC8-3B57-461F-AB70-EA159984C4CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +120,12 @@ Global
 		{80615987-6017-458D-97F5-4C7CC58DFD55} = {DBBA742B-0739-4346-9EDE-287556B01232}
 		{2616DA7D-1BB3-444B-A301-2F3D173E27CC} = {80615987-6017-458D-97F5-4C7CC58DFD55}
 		{C0B1068F-3F02-48A0-902F-EFA37DFEFF04} = {80615987-6017-458D-97F5-4C7CC58DFD55}
+		{387D490D-B354-4407-8005-90DB40CE6207} = {04E2513A-509E-4B4C-82CF-49E29FBA4E53}
+		{27A17F7D-13B3-4782-8D22-183AB239F1C1} = {387D490D-B354-4407-8005-90DB40CE6207}
+		{4FA52925-C4EC-43CB-B343-39870F2B1BE2} = {387D490D-B354-4407-8005-90DB40CE6207}
+		{DF952635-1E94-4BDC-AB52-5A7BD5B6B704} = {E841A92C-9283-4503-9B40-A0FF65D958A7}
+		{8F56D3C6-8520-4EEB-ADEF-D16E6ECEDE7E} = {DF952635-1E94-4BDC-AB52-5A7BD5B6B704}
+		{7947DBC8-3B57-461F-AB70-EA159984C4CF} = {DF952635-1E94-4BDC-AB52-5A7BD5B6B704}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0ADFFE23-F487-4C62-B055-02E7B5E87267}
