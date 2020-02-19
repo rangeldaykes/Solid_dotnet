@@ -20,6 +20,7 @@ namespace GeradorDeNotaFiscal_Solution
 
             NotaFiscal nf = new NotaFiscal(valor, ImpostoSimplesSobreO(valor));
 
+            // agora apenas chamamos quem se "inscreveu" para axecutar alguma ação após Gerar
             foreach (var acao in _acoes)
             {
                 acao.Executa(nf);

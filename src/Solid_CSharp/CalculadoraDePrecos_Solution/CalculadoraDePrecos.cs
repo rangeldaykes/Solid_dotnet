@@ -17,6 +17,8 @@ namespace CalculadoraDePrecos_Solution
 
         public double Calcula(Compra produto)
         {
+            // Ao receber por injeção de dependência esta aberto
+            // para extensão e não precisa mudar este código
             double desconto = _tabela.DescontoPara(produto.Valor);
             double frete = _entrega.Para(produto.Cidade);
 

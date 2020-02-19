@@ -23,6 +23,7 @@ namespace ProcessadorBoletos_Solution
         {
             pagamentos.Add(pagamento);
 
+            // Agora a fatura verifica se esta esta totalmente paga
             if (valorTotalDosPagamentos() >= Valor)
                 Pago = true;
         }

@@ -8,6 +8,7 @@ namespace CalculadoraDePrecos_Problem
     {
         public double Calcula(Compra produto)
         {
+            // Para modificar a tabela ou o frete tem que mudar este código
             TabelaDePrecoPadrao tabela = new TabelaDePrecoPadrao();
             Frete correios = new Frete();
 

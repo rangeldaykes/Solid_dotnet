@@ -19,6 +19,7 @@ namespace GeradorDeNotaFiscal_Problem
 
             NotaFiscal nf = new NotaFiscal(valor, ImpostoSimplesSobreO(valor));
 
+            // - Problem - this class depends on email and dao
             email.EnviaEmail(nf);
             dao.Persiste(nf);
 

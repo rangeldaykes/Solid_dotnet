@@ -18,6 +18,7 @@ namespace ProcessadorBoletos_Problem
                 total += boleto.Valor;
             }
 
+            // Marcar como pago deveria ser responsabilidade da Fatura
             if (total >= fatura.Valor)
             {
                 fatura.Pago = true;
