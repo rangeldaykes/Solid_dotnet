@@ -26,6 +26,15 @@ namespace GeradorDeArquivos_Solution
         }
     }
 
+    public class GeradorDeArquivos
+    {
+        public void GerarArquivos(IList<Arquivo> arquivos)
+        {
+            foreach (var arquivo in arquivos)
+                arquivo.Gerar();
+        }
+    }
+
     public abstract class Arquivo
     {
         public abstract void Gerar();
@@ -55,15 +64,6 @@ namespace GeradorDeArquivos_Solution
         {
             // codigo para geracao do arquivo
             Console.WriteLine("Gerou arquivo txt");
-        }
-    }
-
-    public class GeradorDeArquivos
-    {
-        public void GerarArquivos(IList<Arquivo> arquivos)
-        {
-            foreach (var arquivo in arquivos)
-                arquivo.Gerar();
         }
     }
 }

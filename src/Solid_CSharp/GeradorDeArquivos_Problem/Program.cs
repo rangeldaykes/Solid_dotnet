@@ -22,6 +22,20 @@ namespace GeradorDeArquivos_Problem
         }
     }
 
+    public class GeradorDeArquivos
+    {
+        public void GerarArquivos(IList<Arquivo> arquivos)
+        {
+            foreach (var arquivo in arquivos)
+            {
+                if (arquivo is ArquivoWord)
+                    ((ArquivoWord)arquivo).GerarDocX();
+                else if (arquivo is ArquivoPdf)
+                    ((ArquivoPdf)arquivo).GerarPdf();
+            }
+        }
+    }
+
     public class Arquivo
     {
     }
@@ -41,20 +55,6 @@ namespace GeradorDeArquivos_Problem
         {
             // codigo para geracao do arquivo
             Console.WriteLine("Gerou arquivo pdf");
-        }
-    }
-
-    public class GeradorDeArquivos
-    {
-        public void GerarArquivos(IList<Arquivo> arquivos)
-        {
-            foreach (var arquivo in arquivos)
-            {
-                if (arquivo is ArquivoWord)
-                    ((ArquivoWord)arquivo).GerarDocX();
-                else if (arquivo is ArquivoPdf)
-                    ((ArquivoPdf)arquivo).GerarPdf();
-            }
         }
     }
 }
